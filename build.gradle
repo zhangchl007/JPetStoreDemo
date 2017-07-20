@@ -17,7 +17,8 @@ configurations.all {
 repositories {
     mavenLocal()   
     maven {
-            url "http://admin:password@${MavenRepoServerIP}:8081/artifactory/maven-virtual"
+            #url "http://admin:password@${MavenRepoServerIP}:8081/artifactory/maven-virtual"
+            <url>http://repo.maven.apache.org/maven2</url>
           }
 }
 dependencies {
