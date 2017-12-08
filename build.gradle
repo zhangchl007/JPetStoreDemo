@@ -17,7 +17,7 @@ configurations.all {
 repositories {
     maven {
            
-            #url "http://repo.maven.apache.org/maven2"
+            //url "http://repo.maven.apache.org/maven2"
             url "${nexusUrl}/repository/maven-all-public"
           }
 }
